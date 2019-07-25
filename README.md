@@ -35,7 +35,7 @@ En este punto se utilizó la función `wait()` para garantizar que el  proceso h
 ## PUNTO 4
 
 * Pregunta 1: El uso de la CPU por cada proceso debería ser del 100 %, debido a que en la instrucción se está indicando que cada
-uno use el 100 % de esta (5:100)
+uno use el 100 % de esta (5:100), de forma que cuando un proceso termine, el otro se ejecuta, ocupando así el 100 % de la CPU
 
 * Pregunta 2: El proceso 0 toma 4 tiempos en su ejecución, mientras que el llamado al proceso I/O toma 6 tiempos, debido a que el 
 primer tiempo de este proceso corresponde a la ejecución, 4 más corresponden al uso de la I/O o la espera a que el dispositivo
