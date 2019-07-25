@@ -30,6 +30,9 @@ La función para medir el tiempo se encontró en: https://davidcapello.com/blog/
 
 ## PUNTO 2
 
+En el punto 2 se crearon los hilos, cada uno con sus repectivas funciones y respectivas variables a usar, privadas entre sí, ambos
+hilos hacen cambios en la variale global v, se utiliza el tipo de dato puerta y la sincronización de estos, para el cálculo final
+además de el uso de la función `sleep()` para que el segundo hilo espere 2 segundos al primer hilo
 
 ## PUNTO 3
 
