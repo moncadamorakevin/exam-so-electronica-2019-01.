@@ -31,3 +31,12 @@ La función para medir el tiempo se encontró en: https://davidcapello.com/blog/
 ## PUNTO 3
 
 En este punto se utilizó la función `wait()` para garantizar que el  proceso hijo siempre espere al proceso padre en su ejecución
+
+## PUNTO 4
+
+* Pregunta 1: El uso de la CPU por cada proceso debería ser del 100 %, debido a que en la instrucción se está indicando que cada
+uno use el 100 % de esta (5:100)
+
+* Pregunta 2: El proceso 0 toma 4 tiempos en su ejecución, mientras que el llamado al proceso I/O toma 6 tiempos, debido a que el 
+primer tiempo de este proceso corresponde a la ejecución, 4 más corresponden al uso de la I/O o la espera a que el dispositivo
+complete la tarea y un tiempo más para cambiar el estado a realizado.
