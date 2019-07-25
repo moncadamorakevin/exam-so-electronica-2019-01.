@@ -8,5 +8,6 @@
 #define cerrar_puerta(m) pthread_mutex_lock(&m) // funcion para cerrar la puerta
 #define abrir_puerta(m) pthread_mutex_unlock(&m) //funcion para abrir la puerta
 #define destruir_puerta(m) pthread_mutex_destroy(&m) // funcion para destruir puerta
-
+#define multiplicar(a,b) a*b
+#define dividir(a,b) a/b 
 #endif
