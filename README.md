@@ -24,3 +24,10 @@ abre la puerta, teniendo que hacerlo tantas veces como el tamaño del número (1
 
 La función para medir el tiempo se encontró en: https://davidcapello.com/blog/cpp/medir-el-tiempo-de-una-rutina/ 
 
+
+## PUNTO 2
+
+
+## PUNTO 3
+
+En este punto se utilizó la función `wait()` para garantizar que el  proceso hijo siempre espere al proceso padre en su ejecución
