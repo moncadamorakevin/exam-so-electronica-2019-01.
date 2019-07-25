@@ -22,8 +22,8 @@ La gran diferencia entre los tiempos se da debido a que en el primer programa `t
 for, por lo cual lo hace una sola vez, el programa `threads2.c` toma más tiempo debido a que por cada entrada al for cierra y 
 abre la puerta, teniendo que hacerlo tantas veces como el tamaño del número (10000000 en este caso)
 
-* Compilar: gcc -pthread threads.c -o threads
-* Ejecución: ./thread 10000000
+* Compilar: `gcc -pthread threads.c -o threads`
+* Ejecución: `./thread 10000000`
 
 La función para medir el tiempo se encontró en: https://davidcapello.com/blog/cpp/medir-el-tiempo-de-una-rutina/ 
 
