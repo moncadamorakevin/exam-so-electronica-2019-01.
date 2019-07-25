@@ -12,7 +12,7 @@ void *hilo1(void *arg){
    cerrar_puerta(puerta1);
    double z=25;
    double y=350;
-   v=dividir(z,y);
+   v=z/y;
    abrir_puerta(puerta1);
    return NULL;
 }
@@ -20,7 +20,7 @@ void *hilo1(void *arg){
 void *hilo2(void *arg){
    sleep(2);
    double x=1250;
-   v=multiplicar(x,v);
+   v=x*v;
    return NULL;
 }
 
